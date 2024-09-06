@@ -1,0 +1,30 @@
+.searchdata ul {
+    list-style-type: none;
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0; 
+    padding: 0; 
+    z-index: 5;
+}
+
+.searchdata ul li {
+    border-bottom: solid rgba(255, 255, 255, 0.452) 0.1px;
+    width: 90%;
+    text-align: center; 
+    padding: 8px; 
+    color: white;
+}
+
+.searchdata ul li:last-child {
+    border-bottom: none; /* Remove border-bottom for the last li */
+}
+
+.images{
+    height: 5px;
+    width: 5px;
+}

@@ -1,0 +1,27 @@
+.place img{
+    width: 400px;
+    height: 300px;
+}
+
+.appoint{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom:1px black solid;
+    border-top:1px black solid;
+    padding: 20px;
+}
+
+.visit {
+    border: 1px solid black;
+    width: 50px;
+    color: white;
+    background-color: black;
+}
+
+.visit a :hover{
+    border: 1px solid black;
+    width: 50px;
+    background-color: white;
+    color: black;
+}

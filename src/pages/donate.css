@@ -1,0 +1,100 @@
+/* Apply a basic reset to remove default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style the container */
+
+
+/* Style the label for donation dropdown */
+label {
+    display: block;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+/* Style the donation dropdown */
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+/* Style the input fields and their containers */
+div.pk {
+    margin-bottom: 15px;
+}
+
+/* Style the submit button */
+input[type="submit"] {
+    background-color: rgb(195, 46, 157);
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: rgb(195, 46, 157);
+}
+
+/* Style the "ENTER AMOUNT" section */
+div.pk2 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+/* Style the input for entering the amount */
+div.pk3 input[type="text"] {
+    width: 70%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+/* Adjust the submit button in the "ENTER AMOUNT" section */
+div.pk3 input[type="submit"] {
+    width: 28%;
+    background-color: rgb(195, 46, 157);
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+div.pk3 input[type="submit"]:hover {
+    background-color: rgb(195, 46, 157);
+}
+
+/* Responsive design for smaller screens */
+@media screen and (max-width: 600px) {
+    .container {
+        padding: 10px;
+    }
+    
+    div.pk3 input[type="text"],
+    div.pk3 input[type="submit"] {
+        width: 100%;
+    }
+}
+
+.form-main{
+    margin: auto;
+    padding: 20px;
+    background-image: url('bg-img.jpg'); /* Replace 'bg-img.jpg' with the path to your image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 1000px;
+}
+
+.form{
+    width: 50%;
+    height: 500px;
+    color: white;
+    margin-top: 100px;
+}

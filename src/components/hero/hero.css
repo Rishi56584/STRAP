@@ -1,0 +1,37 @@
+.hero{
+    width: auto;
+    height: 680px;
+    width: 100%;
+    position: relative;
+}
+
+
+
+.hero h1 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    font-size: 2.5vw;
+    font-family: 'Inter', sans-serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    z-index: 2;
+}
+
+.videocover{
+    height: 90%;
+    width: 100%;
+    overflow: hidden;
+    margin: auto;
+   position: relative;
+   top: 0px;
+}
+
+.videocover video{
+    height: auto;
+    margin: -8%;
+    width: 100%;
+}

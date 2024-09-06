@@ -1,0 +1,41 @@
+.buttoni a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.button-class  :hover{
+    color: black;
+    background-color: white;
+}
+
+.buttoni {
+    width: 150px; /* Adjust to your desired width */
+    height: 40px; /* Adjust to your desired height */
+    border-radius: 20px;
+    background-color: black;
+    border: 2px solid;
+    color: white;
+    
+}
+
+.display{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.box1{
+    border: 3px solid black;
+    width: 300px;
+    height: 100px;
+}
+
+.button-main{
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: large;
+    position: relative;bottom: 60px;
+}

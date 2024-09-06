@@ -1,0 +1,22 @@
+.imgs{
+    width: 500px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Inter', sans-serif;
+
+}
+
+.imgs img{
+    width: 180px;
+    height: 300px;
+    padding: 20px;
+
+}
+
+.carousel-imgs{
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+}
+

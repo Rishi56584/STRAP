@@ -1,0 +1,65 @@
+#result {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #333;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+input[type="file"] {
+    margin-top: 10px;
+}
+
+.rescue-main{
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.submit{
+    height: 200px;
+    width: 350px;
+    border: 3px dotted black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.input{
+    position: relative;
+    bottom: 10px;
+}
+.db{
+    width: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px black solid;
+}
+.db-data{
+    color: white;
+    background-color: green;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    height: 150px;
+    width: 200px;
+    margin: 50px;
+    padding: 10px;
+}

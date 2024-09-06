@@ -1,0 +1,46 @@
+.main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.box-main {
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.box {
+    border: 1px solid black;
+    color: aliceblue;
+    background-color: black;
+    width: 400px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0; /* Initially hide boxes */
+    animation: slideIn 0.5s forwards; /* Apply animation */
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateX(-100%); /* Start from left */
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0); /* Slide to original position */
+        opacity: 1;
+    }
+}
+
+.animate-from-left {
+    animation-delay: 0.2s; /* Delay for left animation */
+}
+
+.animate-from-right {
+    animation-delay: 0.4s; /* Delay for right animation */
+}

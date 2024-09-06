@@ -1,0 +1,59 @@
+.footer{
+    margin-top: 500px;
+    
+    display: grid;
+    grid-template-columns: 4fr 4fr 4fr;
+   }
+   #main{
+    font-size: 20px;
+    font-style: italic;
+    margin-left:20px ;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-bottom: 50px;
+    color: white;
+   }
+   #topic{
+    font-style:normal;
+    margin-bottom: 5px;
+    margin-left:20px ;
+    font-size: small;
+   }
+   summary{
+    font-style: italic;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   }
+
+   .footer-main{
+    display: flex;
+    background-color: black;
+    justify-content: space-around;
+    color: white;
+    height: 500px;
+   }
+
+   .TC{
+    width: 30%;
+    padding-top: 100px;
+   }
+
+   .GTK{
+    width: 30%;
+    border-left: 0.1px solid white;
+    border-right: 0.1px solid wheat;
+    padding-top: 100px;
+
+   }
+   .CWU{
+    width: 30%;
+    padding-top: 100px;
+
+   }
+
+   #social a{
+    color: white;
+    text-decoration: none;
+   }
+   #social a :hover{
+    color: white;
+    text-decoration: none;
+   }
